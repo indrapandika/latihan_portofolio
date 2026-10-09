@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Kumpulan proyek pembelajaran I Gede Indra Pandika." name="description"/>
+  <title>
+   Proyek | Indra Pandika
+  </title>
+  <link href="./style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="nav-wrap">
+   <nav class="nav">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      IP
+     </span>
+     <span>
+      Indra
+      <span class="gradient-text">
+       .dev
+      </span>
+     </span>
+    </a>
+    <div class="nav-right">
+     <a class="nav-link" href="index.html">
+      <span class="lang-text" data-en="Home" data-id="Beranda">
+       Beranda
+      </span>
+     </a>
+     <a class="nav-link" href="keahlian.html">
+      <span class="lang-text" data-en="Skills" data-id="Keahlian">
+       Keahlian
+      </span>
+     </a>
+     <a class="nav-link active" href="proyek.html">
+      <span class="lang-text" data-en="Projects" data-id="Proyek">
+       Proyek
+      </span>
+     </a>
+     <button aria-label="Change language" class="nav-tool" id="lang-btn">
+      EN
+     </button>
+     <button aria-label="Toggle dark mode" class="nav-tool" id="theme-btn">
+      ☾
+     </button>
+    </div>
+   </nav>
+  </header>
+  <main class="page">
+   <section class="subhead">
+    <span class="eyebrow">
+     SELECTED WORK
+    </span>
+    <h1>
+     <span class="lang-text" data-en="Selected projects" data-id="Proyek pilihan">
+      Proyek pilihan
+     </span>
+     <span class="gradient-text">
+      .
+     </span>
+    </h1>
+    <p class="lang-text" data-en="A collection of coursework and practice projects that let me explore programming, databases, machine learning, and system design." data-id="Kumpulan proyek perkuliahan dan latihan yang membantu saya mengeksplorasi pemrograman, database, machine learning, dan perancangan sistem.">
+     Kumpulan proyek perkuliahan dan latihan yang membantu saya mengeksplorasi pemrograman, database, machine learning, dan perancangan sistem.
+    </p>
+   </section>
+   <div class="filter-row">
+    <button class="filter-btn active" data-filter="all">
+     <span class="lang-text" data-en="All Projects" data-id="Semua Proyek">
+      Semua Proyek
+     </span>
+    </button>
+    <button class="filter-btn" data-filter="database">
+     Database
+    </button>
+    <button class="filter-btn" data-filter="ai">
+     Python / AI
+    </button>
+    <button class="filter-btn" data-filter="web">
+     Web Development
+    </button>
+    <button class="filter-btn" data-filter="design">
+     UI/UX &amp; Sistem
+    </button>
+   </div>
+   <section class="cards" id="project-grid">
+    <article class="card project-card" data-category="database">
+     <div class="project-top">
+     </div>
+     <div class="project-meta">
+      <span>
+       DATABASE
+      </span>
+      <span>
+       01 / 04
+      </span>
+     </div>
+     <div class="card-icon">
+      ▤
+     </div>
+     <h3>
+      <span class="lang-text" data-en="Building Supplies Database System" data-id="Sistem Database Toko Bangunan">
+       Sistem Database Toko Bangunan
+      </span>
+     </h3>
+     <p class="lang-text" data-en="Relational database design, table normalization, ERD, and database features for sales transactions." data-id="Perancangan database relasional, normalisasi tabel, ERD, serta implementasi query dan fitur database untuk transaksi penjualan.">
+      Perancangan database relasional, normalisasi tabel, ERD, serta implementasi query dan fitur database untuk transaksi penjualan.
+     </p>
+     <div class="skill-list">
+      <span class="pill">
+       MySQL
+      </span>
+      <span class="pill">
+       SQL
+      </span>
+      <span class="pill">
+       ERD
+      </span>
+     </div>
+    </article>
+    <article class="card project-card" data-category="ai">
+     <div class="project-top">
+     </div>
+     <div class="project-meta">
+      <span>
+       MACHINE LEARNING
+      </span>
+      <span>
+       02 / 04
+      </span>
+     </div>
+     <div class="card-icon">
+      🤖
+     </div>
+     <h3>
+      <span class="lang-text" data-en="Rainfall Prediction" data-id="Prediksi Curah Hujan">
+       Prediksi Curah Hujan
+      </span>
+     </h3>
+     <p class="lang-text" data-en="A simple linear regression model to estimate monthly rainfall from temperature, evaluated using MSE and R&sup2;." data-id="Model regresi linear sederhana untuk memperkirakan curah hujan bulanan berdasarkan suhu, dengan evaluasi MSE dan R&sup2;.">
+      Model regresi linear sederhana untuk memperkirakan curah hujan bulanan berdasarkan suhu, dengan evaluasi MSE dan R&sup2;.
+     </p>
+     <div class="skill-list">
+      <span class="pill">
+       Python
+      </span>
+      <span class="pill">
+       Scikit-learn
+      </span>
+      <span class="pill">
+       Pandas
+      </span>
+     </div>
+    </article>
+    <article class="card project-card" data-category="ai">
+     <div class="project-top">
+     </div>
+     <div class="project-meta">
+      <span>
+       COMPUTER VISION
+      </span>
+      <span>
+       03 / 04
+      </span>
+     </div>
+     <div class="card-icon">
+      ◉
+     </div>
+     <h3>
+      <span class="lang-text" data-en="YOLO Object Detection Experiment" data-id="Eksperimen Deteksi Objek YOLO">
+       Eksperimen Deteksi Objek YOLO
+      </span>
+     </h3>
+     <p class="lang-text" data-en="Exploring computer vision to detect objects using YOLO and OpenCV as an object recognition exercise." data-id="Eksplorasi computer vision untuk mendeteksi objek menggunakan model YOLO dan OpenCV sebagai latihan pengenalan objek.">
+      Eksplorasi computer vision untuk mendeteksi objek menggunakan model YOLO dan OpenCV sebagai latihan pengenalan objek.
+     </p>
+     <div class="skill-list">
+      <span class="pill">
+       Python
+      </span>
+      <span class="pill">
+       YOLO
+      </span>
+      <span class="pill">
+       OpenCV
+      </span>
+     </div>
+    </article>
+    <article class="card project-card" data-category="web">
+     <div class="project-top">
+     </div>
+     <div class="project-meta">
+      <span>
+       WEB DEVELOPMENT
+      </span>
+      <span>
+       04 / 04
+      </span>
+     </div>
+     <div class="card-icon">
+      ⌘
+     </div>
+     <h3>
+      AquaLok Store
+     </h3>
+     <p class="lang-text" data-en="A web-based ornamental fish store concept with a product catalog, fish details, cart, and checkout flow." data-id="Konsep toko ikan hias berbasis web dengan katalog produk, detail ikan, keranjang, dan alur checkout.">
+      Konsep toko ikan hias berbasis web dengan katalog produk, detail ikan, keranjang, dan alur checkout.
+     </p>
+     <div class="skill-list">
+      <span class="pill">
+       React
+      </span>
+      <span class="pill">
+       Tailwind CSS
+      </span>
+      <span class="pill">
+       JavaScript
+      </span>
+     </div>
+     <div class="project-actions">
+      <a aria-label="Lihat source code AquaLok Store di GitHub" class="project-action project-action-primary" href="https://github.com/indrapandika/my-appaqualok" rel="noopener noreferrer" target="_blank">
+       <svg aria-hidden="true" viewbox="0 0 24 24">
+        <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5.2 15 2.1a13.2 13.2 0 0 0-7 0C5.5.2 3.3 1.5 3.3 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 7 18.1V22">
+        </path>
+       </svg>
+       <span class="lang-text" data-en="View Code" data-id="Lihat Kode">
+        Lihat Kode
+       </span>
+      </a>
+      <a aria-label="Buka website AquaLok Store" class="project-action project-action-secondary" href="https://my-appaqualok.vercel.app/" rel="noopener noreferrer" target="_blank">
+       <svg aria-hidden="true" viewbox="0 0 24 24">
+        <circle cx="12" cy="12" r="10">
+        </circle>
+        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z">
+        </path>
+       </svg>
+       <span class="lang-text" data-en="Live Demo" data-id="Lihat Website">
+        Lihat Website
+       </span>
+       <span aria-hidden="true">
+        &nearrow;
+       </span>
+      </a>
+     </div>
+    </article>
+    <article class="card project-card" data-category="design">
+     <div class="project-top">
+     </div>
+     <div class="project-meta">
+      <span>
+       UI/UX &middot; SYSTEM DESIGN
+      </span>
+      <span>
+       EXTRA
+      </span>
+     </div>
+     <div class="card-icon">
+      ✧
+     </div>
+     <h3>
+      <span class="lang-text" data-en="SEHATIN Application Design" data-id="Perancangan Aplikasi SEHATIN">
+       Perancangan Aplikasi SEHATIN
+      </span>
+     </h3>
+     <p class="lang-text" data-en="Preparing software requirements and UML diagrams to support application system design." data-id="Penyusunan kebutuhan perangkat lunak dan pemodelan diagram UML untuk membantu perancangan sistem aplikasi.">
+      Penyusunan kebutuhan perangkat lunak dan pemodelan diagram UML untuk membantu perancangan sistem aplikasi.
+     </p>
+     <div class="skill-list">
+      <span class="pill">
+       SRS
+      </span>
+      <span class="pill">
+       UML
+      </span>
+      <span class="pill">
+       UI/UX
+      </span>
+     </div>
+    </article>
+    <article class="card project-card" data-category="web">
+     <div class="project-top">
+     </div>
+     <div class="project-meta">
+      <span>
+       WEB &middot; PORTFOLIO
+      </span>
+      <span>
+       ONGOING
+      </span>
+     </div>
+     <div class="card-icon">
+      ✦
+     </div>
+     <h3>
+      <span class="lang-text" data-en="Personal Portfolio" data-id="Personal Portfolio">
+       Personal Portfolio
+      </span>
+     </h3>
+     <p class="lang-text" data-en="A responsive portfolio website showcasing profile, skills, and projects, with dark mode and bilingual support." data-id="Website portofolio responsif untuk memperkenalkan profil, keahlian, dan proyek dengan dukungan tema gelap serta dua bahasa.">
+      Website portofolio responsif untuk memperkenalkan profil, keahlian, dan proyek dengan dukungan tema gelap serta dua bahasa.
+     </p>
+     <div class="skill-list">
+      <span class="pill">
+       HTML
+      </span>
+      <span class="pill">
+       CSS
+      </span>
+      <span class="pill">
+       Tailwind CSS
+      </span>
+     </div>
+    </article>
+   </section>
+   <div class="contact-band">
+    <div>
+     <h2>
+      <span class="lang-text" data-en="Every project is a learning process." data-id="Setiap proyek adalah proses belajar.">
+       Setiap proyek adalah proses belajar.
+      </span>
+     </h2>
+     <p class="lang-text" data-en="I keep building, experimenting, and improving my skills." data-id="Saya terus membangun, mencoba, dan memperbaiki kemampuan saya.">
+      Saya terus membangun, mencoba, dan memperbaiki kemampuan saya.
+     </p>
+    </div>
+    <a class="btn btn-primary" href="keahlian.html">
+     <span class="lang-text" data-en="View Skills" data-id="Lihat Keahlian">
+      Lihat Keahlian
+     </span>
+     &nearrow;
+    </a>
+   </div>
+  </main>
+  <footer class="footer">
+   &copy; 2026 I Gede Indra Pandika
+  </footer>
+  <script src="./script.js">
+  </script>
+ </body>
+</html>
